@@ -23,7 +23,6 @@ def birthday(s, d, m):
                 sub = []
                 k = 0
 
-                j = s[i]
                 no_of_times_to_iterate = m - 1
                 p = i + 1
 
