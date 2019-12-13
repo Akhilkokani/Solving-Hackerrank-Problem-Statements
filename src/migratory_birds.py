@@ -10,19 +10,10 @@ import sys
 
 # Complete the migratoryBirds function below.
 def migratoryBirds(arr):
-    freq_counter = {}
-
+    count = [0]*6
     for i in arr:
-        freq_counter[i] = arr.count(i)
-
-    highest_freq_value = max ( freq_counter.values() )
-    highest_freq_indexes = []
-
-    for i in range ( max(freq_counter.keys()) ):
-        if i in freq_counter and freq_counter[i] == highest_freq_value:
-            highest_freq_indexes.append(i)
-
-    return min(highest_freq_indexes)
+        count[i] += 1
+    return count.index( max(count) )
 
 
 
