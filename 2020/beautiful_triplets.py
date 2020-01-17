@@ -1,3 +1,5 @@
+# Problem Statement Link: https://www.hackerrank.com/challenges/beautiful-triplets/problem
+
 #!/bin/python3
 
 import math
